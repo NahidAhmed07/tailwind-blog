@@ -1,4 +1,9 @@
-
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+}
 
 .un-text::after{
 
@@ -9,4 +14,13 @@
     position: absolute;
     top: 65px;
     left: calc(50% - 25px);
+}
+
+.overlay-color{
+    background: #0000008d;
+}
+
+section{
+    overflow: hidden !important;
+    box-sizing: border-box !important;
 }
