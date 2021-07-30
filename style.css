@@ -1,0 +1,12 @@
+
+
+.un-text::after{
+
+    content: "";
+    height: 2px;
+    width: 50px;
+    background:rgb(180, 58, 2);
+    position: absolute;
+    top: 65px;
+    left: calc(50% - 25px);
+}
