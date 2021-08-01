@@ -24,3 +24,15 @@ section{
     overflow: hidden !important;
     box-sizing: border-box !important;
 }
+
+#home{
+    background-image: url(./images/wave.svg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+.opacity{
+    opacity: 1;
+    animation-delay:0s;
+    animation-duration: 0.5s;
+}
